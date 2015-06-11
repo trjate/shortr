@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
 
   def new
+    @action = users_path
     render :new
   end
 
